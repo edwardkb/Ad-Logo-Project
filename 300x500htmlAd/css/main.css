@@ -1,0 +1,166 @@
+ad {
+    position: relative; width:  300px;
+    height: 600px;
+    border: #ccc 0.5px solid;
+    overflow: hidden;
+    box-shadow: #ccc 4px 3px 4px;
+    margin: 0 auto;
+}
+
+.avitarbg {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    background: url('../images/avitarbg.jpg') no-repeat;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+-o-animation: avitarbg 4s ease-in-out forwards; 
+-moz-animation: avitarbg 4s ease-in-out forwards; 
+-ms-animation: avitarbg 4s ease-in-out forwards; 
+-webkit-animation: avitarbg 4s ease-in-out forwards; 
+}
+
+
+
+@keyframes avitarbg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+@-o-keyframes avitarbg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+@-moz-keyframes avitarbg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+@-ms-keyframes avitarbg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+@-webkit-keyframes avitarbg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+.logo {
+    position: absolute;
+    overflow: hidden; 
+    background: url('../images/Hulk-PNG-Free-Download.png') no-repeat;
+    width: 75%;
+    height: 75%;
+    top: -40px;
+    right: -60px;
+    background-size: contain;
+    
+
+}
+
+.content {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 300px;
+    /*padding: 10px;*/
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 4px 3px 4px #ccc;
+    text-align: center;
+    -o-animation: content1 4s ease-in-out forwards; 
+-moz-animation: content1 4s ease-in-out forwards; 
+-ms-animation: content1 4s ease-in-out forwards; 
+-webkit-animation: content1 4s ease-in-out forwards; 
+}
+
+
+
+@keyframes content1 {
+    0% {opacity: 0;left: -300px}
+    100% {opcity: 1; left: 0px}
+}
+@-o-keyframes content1 {
+    0% {opacity: 0;left: -300px}
+    100% {opcity: 1; left: 0px}
+}
+@-moz-keyframes content1 {
+    0% {opacity: 0;left: -300px}
+    100% {opcity: 1; left: 0px}
+}
+@-ms-keyframes content1{
+    0% {opacity: 0;left: -300px}
+    100% {opcity: 1; left: 0px}
+}
+@-webkit-keyframes content1 {
+    0% {opacity: 0;left: -300px}
+    100% {opcity: 1; left: 0px}
+}
+
+.border {
+    border: blanchedalmond 1px solid;
+    box-sizing: border-box;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+
+}
+
+.box1{
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 600px;
+height: 150px;
+background-color: green;
+-o-animation: box1 4s ease-in-out forwards; 
+-moz-animation: box1 4s ease-in-out forwards; 
+-ms-animation: box1 4s ease-in-out forwards; 
+-webkit-animation: box1 4s ease-in-out forwards; 
+}
+
+
+
+@keyframes box1 {
+    0% {opacity: 0.5;left: -300px}
+    100% {opacity: 0.5; left: 0px}
+}
+@-o-keyframes box1 {
+    0% {opacity: 0.5;left: -300px}
+    100% {opacity: 0.5; left: 0px}
+}
+@-moz-keyframes box1 {
+    0% {opacity: 0;left: -300px}
+    100% {opacity: 0.5; left: 0px}
+}
+@-ms-keyframes box1{
+    0% {opacity: 0;left: -300px}
+    100% {opacity: 0.5; left: 0px}
+}
+@-webkit-keyframes box1 {
+    0% {opacity: 0;left: -300px}
+    100% {opacity: 0.5; left: 0px}
+}
+
+.cta {
+    position: absolute;
+    height: 50px;
+    width: 95%;
+    margin: 0 2.5%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: fantasy, helvetica, sans-sarif;
+    font-weight: bold;
+    text-decoration: none;
+   border: black 1px solid;
+   transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.cta:hover {
+    background-color: #b0d9ed;
+    color: rgb(117, 117, 117);
